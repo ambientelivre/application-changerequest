@@ -1,0 +1,266 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.5" reference="ChangeRequest.Code.ChangeRequestTranslations" locale="pt-BR">
+  <web>ChangeRequest.Code</web>
+  <name>ChangeRequestTranslations</name>
+  <language>pt-BR</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <parent>Main.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <version>1.1</version>
+  <title>ChangeRequestTranslations</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content>changerequest.docextra.title=Solicitações de alteração
+changerequest.homepage.title=Solicitações de alteração
+changerequest.application.label=Solicitações de Alteração
+changerequest.picker.placeholder=Insira um nome para esta solicitação de mudança
+changerequest.editor.button.save=Salvar como solicitação de alteração
+changerequest.createascr.button=Criação de Solicitação
+changerequest.savemodal.header.title=Salvar como solicitação de alteração
+changerequest.savemodal.header.hint=Forneça algumas informações para salvar suas alterações em uma solicitação de alteração nova ou existente.
+changerequest.savemodal.create.heading=Criar nova solicitação de mudança
+changerequest.savemodal.create.input.title=Título da solicitação de mudança
+changerequest.savemodal.create.input.title.placeholder=um título representando as alterações propostas
+changerequest.savemodal.create.input.description=Descrição da solicitação de mudança
+changerequest.savemodal.create.input.draft=Marcar a solicitação de mudança como rascunho (evitar revisão e publicação formal)
+changerequest.savemodal.edit.heading=Adicionar alterações a uma solicitação de alteração existente
+changerequest.savemodal.edit.input.selector=Escolha uma solicitação de mudança existente
+changerequest.sheet.merge.button=Publicar
+changerequest.sheet.merge.button.title=Publique as alterações solicitadas
+changerequest.sheet.rebase.button=Atualizar conteúdo
+changerequest.sheet.rebase.button.title=Atualize esta Solicitação de Mudança com o conteúdo da versão mais recente do documento publicado (todas as alterações propostas serão mantidas).
+changerequest.sheet.rebase.confirm=Esta ação invalidará todas as avaliações. Você deseja continuar?
+changerequest.sheet.editapprovers.button=Editar aprovadores
+changerequest.sheet.pagechanges=Alterações solicitadas nas páginas:
+changerequest.sheet.alldifftitle=Todas as mudanças
+changerequest.sheet.difftitle=Mudanças de {0}
+changerequest.sheet.difftitle.EDITION=Edição de {0}
+changerequest.sheet.difftitle.DELETION=Exclusão de {0}
+changerequest.sheet.difftitle.CREATION=Criação de {0}
+changerequest.sheet.difftitle.NO_CHANGE=Edição de {0} sem alterações
+changerequest.sheet.markready.button=Pronto para revisão
+changerequest.sheet.markready.button.title=Marcar esta solicitação de mudança como pronta para revisão
+changerequest.sheet.markdraft.button=Converter em rascunho
+changerequest.sheet.markdraft.button.title=Marque esta Solicitação de Mudança como trabalho em andamento. Isto impedirá a revisão e publicação formais.
+changerequest.edit.button.value=Editar
+changerequest.edit.button.title=Editar com solicitação de alteração
+changerequest.create.button.value=Criar
+changerequest.create.button.title=Criar com solicitação de mudança
+changerequest.delete.nested.message=A exclusão de páginas aninhadas não é suportada pela função Solicitação de alteração. Você não poderá usar Solicitações de Mudança para executar esta ação se selecionar "Afetar filhos".
+changerequest.delete.button.disabled=Uma página não pode ser excluída junto com todos os seus filhos usando a função Solicitação de alteração. Desmarque a caixa "Afetar crianças" para usar a função Solicitação de alteração e exclua apenas esta página.
+changerequest.sheet.tab.description.title=Descrição
+changerequest.sheet.tab.reviews.title=Avaliações
+changerequest.sheet.tab.filechanges.title=Alterações propostas
+changerequest.sheet.tab.checks.title=Verificações
+changerequest.sheet.tab.checks.conflicts.noconflict.title=Nenhum conflito encontrado
+changerequest.sheet.tab.checks.conflicts.title={0} conflitos encontrados
+changerequest.sheet.tab.checks.conflicts.noconflict.body=Sem conflitos para mostrar.
+changerequest.sheet.tab.checks.conflicts.body={0} conflitos foram encontrados nas alterações propostas. Verifique a {1}guia Alterações propostas{2} para corrigi-las.
+changerequest.sheet.tab.checks.conflicts.needsrefresh.title=Foi encontrado um conflito de documentos não resolvido.
+changerequest.sheet.tab.checks.conflicts.needsrefresh.body=Foi encontrado um conflito de documentos não resolvido. É provável que isso esteja relacionado a um documento ou versão excluída. Verifique a {0}guia Alterações propostas{1} e atualize o conteúdo do documento.
+changerequest.sheet.fixconflict.button=Corrigir conflito
+changerequest.sheet.tab.review.approvers.title=Aprovadores
+changerequest.sheet.tab.review.approvers.noapprover=Os aprovadores não foram definidos explicitamente para esta solicitação de mudança. Os aprovadores serão baseados inteiramente nos direitos de aprovação.
+changerequest.sheet.tab.review.approvers.approverslist=Aprovadores desta Solicitação de Mudança:
+changerequest.sheet.tab.review.title.approved=Aprovado por {0}
+changerequest.sheet.tab.review.title.notapproved=Alteração solicitada por {0}
+changerequest.sheet.tab.review.title.approved.onbehalf=Aprovado por {0} em nome de {1}
+changerequest.sheet.tab.review.title.notapproved.onbehalf=Alteração solicitada por {0} em nome de {1}
+changerequest.sheet.tab.review.title.outdated=desatualizado
+changerequest.sheet.tab.review.title.outdated.title=Esta revisão não é mais válida e será ignorada pelo fluxo de trabalho de revisão.
+changerequest.sheet.tab.review.button.markinvalid=Invalidar
+changerequest.sheet.tab.review.button.markinvalid.title=Marcar esta avaliação como desatualizada
+changerequest.sheet.tab.review.button.markvalid=Restaurar
+changerequest.sheet.tab.review.button.markvalid.title=Marque esta avaliação como válida mais uma vez
+changerequest.sheet.tab.review.button.add=Nova revisão
+changerequest.sheet.tab.checks.approvalStrategy.title=Estratégia de aprovação
+changerequest.sheet.tab.checks.approvalStrategy.body.cannotBeLoaded=A estratégia de aprovação não pode ser carregada.
+changerequest.sheet.checks.button=Não está pronto para publicação
+changerequest.sheet.checks.button.title=As condições exigidas não foram atendidas. Clique para ver o que precisa ser corrigido antes que o documento possa ser publicado.
+changerequest.sheet.checks.status.ready.explanation=Esta solicitação de mudança está pronta para revisão.
+changerequest.sheet.checks.status.draft.explanation=Esta Solicitação de Mudança foi marcada como rascunho (trabalho em andamento), e poderá ser revisada e publicada somente quando um autor decidir marcá-la como “pronta para revisão”.
+changerequest.sheet.checks.status.closed.explanation=Esta solicitação de mudança foi cancelada/fechada e não pode ser editada ou revisada em seu estado atual.
+changerequest.sheet.close.button=Fechar
+changerequest.sheet.close.button.title=Fechar/cancelar a solicitação de mudança sem excluí-la.
+changerequest.sheet.open.button=Abrir
+changerequest.sheet.open.button.title=Abra novamente a solicitação de mudança e defina seu estado como "pronto para revisão".
+changerequest.sheet.open_draft.button=Abrir como rascunho
+changerequest.sheet.open_draft.button.title=Abra novamente a Solicitação de Mudança e defina seu estado como “rascunho”.
+changerequest.filechange.type.EDITION=Edição
+changerequest.filechange.type.DELETION=Eliminação
+changerequest.filechange.type.CREATION=Criação
+changerequest.filechange.type.NO_CHANGE=Sem alteração
+changerequest.livetable.filechange.doc.location=Local de destino
+changerequest.livetable.filechange.doc.title=Título proposto
+changerequest.livetable.filechange.filechange_type=Tipo de alteração
+changerequest.livetable.filechange.filechange_author=Autor das alterações
+changerequest.livetable.filechange.filechange_version=Versão Temporária
+changerequest.livetable.filechange.filechange_documentVersion=Versão publicada
+changerequest.livetable.filechange._actions=Ações
+changerequest.sheet.tab.approvers.title=Aprovadores
+changerequest.sheet.hide=Esconder
+changerequest.sheet.view=Visualizar
+ChangeRequest.Code.ConfigurationClass_approvalStrategy=Estratégia de aprovação de publicações
+ChangeRequest.Code.ConfigurationClass_approvalStrategy.hint=A estratégia usada para determinar se uma Solicitação de Mudança pode ser publicada.
+ChangeRequest.Code.ConfigurationClass_changeRequestLocation=Alterar local de armazenamento da solicitação
+ChangeRequest.Code.ConfigurationClass_changeRequestLocation.hint=Espaço onde os documentos e dados da Solicitação de Mudança são armazenados.
+ChangeRequest.Code.ConfigurationClass_durationBeforeClosingStale=Tempo limite de solicitação de alteração obsoleta
+ChangeRequest.Code.ConfigurationClass_durationBeforeClosingStale.hint=O número de dias que uma solicitação de mudança pode permanecer em estado "obsoleto". Decorrido este período, o sistema mudará o estado para “fechado” e emitirá as notificações pertinentes. O tempo decorrido é calculado a partir do momento em que a solicitação de mudança foi criada ou atualizada (consulte Usar a data de criação para tempos limite) ou a partir do momento em que a solicitação de mudança foi definida para um estado "obsoleto" (consulte Tempo limite da solicitação de mudança aberta). Defina o valor como 0 para desativar o recurso.
+ChangeRequest.Code.ConfigurationClass_durationBeforeNotifyingStale=Tempo limite de solicitação de alteração aberta
+ChangeRequest.Code.ConfigurationClass_durationBeforeNotifyingStale.hint=O número de dias que uma Solicitação de Mudança pode permanecer no estado "aberto". Decorrido este período, o sistema mudará o estado para “obsoleto” e emitirá as notificações relevantes. O tempo decorrido é calculado a partir do momento em que a solicitação de mudança foi modificada pela última vez ou a partir do momento em que a solicitação de mudança foi criada. Consulte o campo "Usar data de criação para tempos limite" para determinar qual deles se aplica. Defina o valor como 0 para desativar o recurso.
+ChangeRequest.Code.ConfigurationClass_useCreationDateForStaleDurations=Use a data de criação para tempos limite
+ChangeRequest.Code.ConfigurationClass_useCreationDateForStaleDurations.hint=Selecionar Sim significa que a data de criação será usada apenas para detectar uma Solicitação de Mudança obsoleta. Selecionar Não significa que a última atividade da Solicitação de Mudança será usada.
+ChangeRequest.Code.ConfigurationClass_schedulerContextUser=Usuário de trabalho agendado
+ChangeRequest.Code.ConfigurationClass_schedulerContextUser.hint=Este usuário será usado como autor ao definir automaticamente uma Solicitação de Mudança como "obsoleta" ou "fechada" no agendamento especificado. As notificações associadas a estas ações também serão emitidas por este usuário. Se um usuário não for especificado, será usado o usuário que instalou a extensão.
+ChangeRequest.Code.ConfigurationClass_mergeUser=Usuário de publicação
+ChangeRequest.Code.ConfigurationClass_mergeUser.hint=Se um usuário for especificado, esse usuário sempre será usado ao publicar Solicitações de Mudança. Este usuário deve ter direitos apropriados. Se um usuário não for especificado, a publicação será realizada pelo usuário clicando no botão publicar.
+ChangeRequest.Code.ConfigurationClass_delegateEnabled=Habilitar aprovadores delegados
+ChangeRequest.Code.ConfigurationClass_delegateEnabled.hint=Se ativado, permita o uso do mecanismo de aprovação de delegado. Delegados são usuários autorizados a realizar revisões em nome dos aprovadores explícitos de um documento.
+ChangeRequest.Code.ConfigurationClass_delegateClassPropertyList=Propriedades do usuário a serem usadas para delegados de computação
+ChangeRequest.Code.ConfigurationClass_delegateClassPropertyList.hint=Use isto para especificar os campos no perfil de um usuário que devem ser levados em consideração ao calcular automaticamente os aprovadores delegados. Se a lista ficar vazia, os delegados precisarão ser definidos manualmente.
+ChangeRequest.Code.ConfigurationClass_preventAuthorsToReview=Impedir que os autores revisem as solicitações de mudança que eles criam
+ChangeRequest.Code.ConfigurationClass_preventAuthorsToReview.hint=Se marcada, os autores não terão permissão para revisar as Solicitações de Mudança que criarem.
+ChangeRequest.Code.ConfigurationClass_minimumApprovers=Número mínimo de aprovadores explícitos
+ChangeRequest.Code.ConfigurationClass_minimumApprovers.hint=Defina o número mínimo de aprovadores exigidos por uma solicitação de mudança. Observe que 0 significa que não há mínimo.
+ChangeRequest.Code.ConfigurationClass_renderedDiffEnabled=Ativar a visualização de comparação renderizada
+ChangeRequest.Code.ConfigurationClass_renderedDiffEnabled.hint=Quando ativado, permite ver uma diferença com a renderização real das alterações da página. 
+ChangeRequest.Code.ConfigurationClass_renderedDiffComponent=Política de segurança a ser usada para a diferença renderizada
+ChangeRequest.Code.ConfigurationClass_renderedDiffComponent.hint=A política padrão é a mais segura, mas impede que todos os scripts sejam renderizados, mesmo que os scripts façam parte das planilhas do documento subjacente. Essa postura pode ser relaxada selecionando uma das outras abordagens.
+ChangeRequest.Code.ConfigurationClass_acceptOnlyAllowedApprovers=Aceite apenas aprovadores que tenham o direito de aprovação
+ChangeRequest.Code.ConfigurationClass_acceptOnlyAllowedApprovers.hint=Quando marcado, os usuários propostos como aprovadores são validados sistematicamente para garantir que tenham direito de aprovação.
+changerequest.diffRender.name.default=Política padrão
+changerequest.diffRender.description.default=Política mais segura para o diff renderizado: evita que qualquer script seja executado.
+changerequest.diffRender.name.guestright=Política de direitos de autor convidado
+changerequest.diffRender.description.guestright=Esta política renderiza a página usando os direitos de usuário Convidado: as alterações são renderizadas como se o Convidado fosse o autor.
+changerequest.diffRender.name.authorright=Alterar a política de direitos de autor
+changerequest.diffRender.description.authorright=Esta política renderiza a página usando os direitos do usuário que propõe as alterações. Use com cuidado, pois esta política pode permitir a execução de scripts não publicados se o autor tiver direitos de script.
+changerequest.diff.rendered.warningNotExact=Esta é uma aproximação de como o documento será renderizado depois de publicado. Por motivos de segurança, a renderização de conteúdo rico pode estar limitada ou indisponível. O conteúdo rico é frequentemente exibido em macros, portanto, esses elementos de conteúdo provavelmente serão bloqueados nesta visualização. Macros que fazem uso de JavaScript ou acessam informações específicas do usuário são particularmente sensíveis.
+changerequest.moreactions.manageapprovers=Gerenciar aprovadores
+changerequest.moreactions.deletionrequest=Solicitar exclusão
+changerequest.moreactions.splitcr=Divida esta solicitação de mudança
+changerequest.moreactions.splitcr.confirm=Tem certeza de que deseja dividir esta solicitação de alteração? Ele criará novas Solicitações de Mudança para cada documento modificado e excluirá a Solicitação de Mudança atual. Esta operação é irreversível e pode quebrar links de entrada.
+ChangeRequest.Code.ApproversClass_usersApprovers=Usuários que podem aprovar
+ChangeRequest.Code.ApproversClass_usersApprovers_hint=Usuários do wiki que podem aprovar qualquer alteração feita neste documento.
+ChangeRequest.Code.ApproversClass_groupsApprovers=Grupos que podem aprovar
+ChangeRequest.Code.ApproversClass_groupsApprovers_hint=Grupos de usuários do wiki que podem aprovar qualquer alteração feita neste documento.
+ChangeRequest.Code.ApproversClass_manualEdition=Editado manualmente
+ChangeRequest.Code.ApproversClass_manualEdition_hint=Marque esta caixa se não desejar que os aprovadores sejam sincronizados automaticamente quando novas alterações forem publicadas.
+changerequest.timeline.changerequest.create={0} criou esta solicitação de mudança com alterações para &lt;a href="{1}"&gt;{2}&lt;/a&gt;
+changerequest.timeline.changerequest.create.fromSplit={0} criou esta solicitação de mudança dividindo uma solicitação de mudança existente para &lt;a href="{1}"&gt;{2}&lt;/a&gt;
+changerequest.timeline.changerequest.filechange.added={0} adicionou uma nova alteração para &lt;a href="{1}"&gt;{2}&lt;/a&gt;
+changerequest.timeline.changerequest.status.modified={0} alterou o status da solicitação de mudança de {1} para {2}
+changerequest.timeline.changerequest.review.added.approval={0} adicionou uma nova revisão de aprovação
+changerequest.timeline.changerequest.review.added.requestchanges={0} adicionou uma nova revisão solicitando alterações
+changerequest.timeline.changerequest.review.added.approval.delegate={0} adicionou uma nova análise de aprovação em nome de {1}
+changerequest.timeline.changerequest.review.added.requestchanges.delegate={0} adicionou uma nova avaliação solicitando alterações em nome de {1}
+changerequest.timeline.changerequest.discussions.CHANGE_REQUEST_COMMENT={0} adicionou {1}um novo comentário geral{2}
+changerequest.timeline.changerequest.discussions.LINE_DIFF={0} adicionou {1}um novo comentário ao documento{2}
+changerequest.timeline.changerequest.discussions.REVIEW={0} adicionou {1}um novo comentário de avaliação{2}
+changerequest.timeline.changerequest.updated={0} editou a descrição ou o título da solicitação de mudança
+changerequest.timeline.changerequest.stale={0} marcou a solicitação de mudança como obsoleta
+changerequest.timeline.changerequest.rebased.all={0} atualizou o conteúdo de toda a solicitação de mudança
+changerequest.timeline.changerequest.rebased.filechange={0} atualizou as alterações de &lt;a href="{1}"&gt;{2}&lt;/a&gt;
+changerequest.timeline.changerequest.rebased.conflictFixing={0} corrigiu um conflito para &lt;a href="{1}"&gt;{2}&lt;/a&gt;
+changerequest.sheet.description.placeholder=Clique no link editar à direita para fornecer uma descrição.
+changerequest.sheet.existingChangeRequestSameChanges=Existem outras solicitações de mudança para uma ou várias páginas modificadas aqui:
+changerequest.sheet.checks.otherCR.title=Já existem solicitações de mudança para alguns desses documentos
+changerequest.sheet.ready.button.title=Marcar esta solicitação de mudança como pronta para revisão
+changerequest.sheet.ready.button=Marcar como pronto para revisão
+changerequest.sheet.draft.button.title=Converta esta solicitação de mudança em um rascunho de solicitação de mudança.
+changerequest.sheet.draft.button=Converter em rascunho
+changerequest.sheet.review.button.title=Revise a solicitação de mudança atual
+changerequest.sheet.review.button=Análise
+changerequest.sheet.diff.conflictLabel=conflitos
+changerequest.sheet.diff.conflictLabel.title=Algumas alterações estão em conflito com a última versão publicada deste documento. Os conflitos devem ser resolvidos antes que este conteúdo possa ser incorporado ao documento publicado.
+changerequest.sheet.message.outdated=desatualizado
+changerequest.sheet.message.outdated.title=Esta mensagem está desatualizada: o conteúdo do documento ao qual a mensagem se refere mudou desde que foi publicada.
+changerequest.sheet.diff.outdated=desatualizado
+changerequest.sheet.diff.outdated.title=A versão publicada deste documento foi alterada desde a criação desta Solicitação de Mudança. Esta visualização não mostrará alterações relativas à versão publicada até que a Solicitação de Mudança seja atualizada.
+changerequest.sheet.diff.nochange=Sem alteração
+changerequest.sheet.diff.approverLabel=aprovador
+changerequest.sheet.diff.approverLabel.title=Você foi nomeado aprovador deste documento. No entanto, durante a revisão desta Solicitação de Mudança, poderá ser necessário que você aprove/rejeite outras alterações de documentos que apoiem os documentos dos quais você é um aprovador. Sua aprovação será aplicada a toda a Solicitação de Mudança.
+changerequest.sheet.diff.delegateApproverLabel=delegado aprovador
+changerequest.sheet.diff.delegateApproverLabel.title=Você é um aprovador delegado deste documento. No entanto, durante a revisão desta Solicitação de Mudança, poderá ser necessário que você aprove/rejeite outras alterações de documentos que apoiem os documentos para os quais você delegou aprovação. Sua aprovação será aplicada a toda a Solicitação de Mudança.
+changerequest.sheet.diff.detailsButton=Ver detalhes
+changerequest.sheet.diff.details.location.metadata=Propriedade da página
+changerequest.sheet.diff.details.location.attachment=Propriedade do anexo {0}
+changerequest.sheet.diff.details.location.xobject=Propriedade do objeto {0}
+changerequest.sheet.diff.details.location.xclass=Propriedade da classe {0}
+changerequest.sheet.diff.details.propertyName=Nome da propriedade: {0}
+changerequest.sheet.message.collapse.button.title=Clique para recolher a mensagem.
+changerequest.sheet.message.expand.button.title=Clique para expandir a mensagem.
+changerequest.sheet.message.reply.button.title=Responder a esta mensagem
+changerequest.sheet.message.reply.button=Responder
+changerequest.minimumApprovers.warning=O número mínimo de aprovadores explícitos não foi atendido para este documento.
+changerequest.conflict.modal.title=Resolver conflitos
+changerequest.conflict.modal.description=Esta interface permite resolver manualmente o conteúdo que não pode ser mesclado automaticamente com o documento publicado. Você pode navegar entre as versões do documento antes de selecionar um resultado.
+changerequest.conflict.modal.description.EDITION=Este documento está em conflito porque a página que você está tentando modificar foi modificada na mesma parte do documento desde que esta Solicitação de Mudança foi criada. Você pode substituir as alterações publicadas pelo conteúdo desta Solicitação de Mudança ou pode permitir que o documento publicado substitua as alterações propostas. Alternativamente, você pode tentar definir manualmente o conteúdo para que ele capture as informações em ambas as versões do documento.
+changerequest.conflict.modal.description.CREATION=Este documento está em conflito porque a página que você está tentando criar foi criada enquanto você gerava esta Solicitação de Mudança. Você pode publicar suas alterações ou usar a versão publicada.
+changerequest.conflict.modal.recommended=Recomendado
+changerequest.conflict.modal.options.keepcr.title=Mantenha as alterações propostas
+changerequest.conflict.modal.options.keepcr.description=Substituir o documento publicado pelas alterações propostas, mesclando onde não houver conflito
+changerequest.conflict.modal.options.keeppublished.title=Mantenha a versão publicada
+changerequest.conflict.modal.options.keeppublished.description=Descartar as alterações propostas, mesclando onde não houver conflito
+changerequest.conflict.modal.custom.hint.disabled=Esta opção está desabilitada. Ocorreu um conflito em parte do documento que não pode ser tratado pela resolução personalizada.
+changerequest.conflict.modal.diffoption.previous=Documento Original (Linha de Base)
+changerequest.conflict.modal.diffoption.next=Alterações propostas
+changerequest.conflict.modal.diffoption.current=Última publicação
+changerequest.conflict.modal.diffoption.merged=Resolução: Prioridade à última publicação
+changerequest.conflict.modal.diffoption.merged_crfallback=Resolução: Prioridade à Proposta
+changerequest.conflict.modal.customchoices.current=alterações publicadas
+changerequest.conflict.modal.customchoices.next=mudanças atuais
+changerequest.conflict.modal.customchoices.previous=mudanças originais
+changerequest.conflict.modal.customchoices.custom=alterações personalizadas
+changerequest.savemodal.approvers.edition.warning=Depois que um documento for publicado, qualquer alteração na lista de aprovadores deverá ser aprovada pela lista existente de aprovadores antes que as alterações afetem quaisquer ciclos de revisão abertos. Se você deseja adicionar ou remover aprovadores para as alterações propostas nesta Solicitação de Mudança, abra uma nova Solicitação de Mudança com um novo conjunto de aprovadores. Esta Solicitação de Mudança será atualizada automaticamente assim que a mudança proposta aos aprovadores for aceita.
+changerequest.savemodal.approvers.header.title=Gerenciar aprovadores
+changerequest.savemodal.approvers.header.hint=Especifique a lista de usuários e/ou grupos que têm permissão para revisar alterações neste documento. Esses usuários serão enviados para revisão junto com a Solicitação de Mudança.
+changerequest.savemodal.approvers.heading=Aprovadores
+changerequest.savemodal.approvers.users=Usuários que podem aprovar
+changerequest.savemodal.approvers.groups=Grupos que podem aprovar
+changerequest.savemodal.approvers.minimumUsers.hint=Você deve selecionar um mínimo de {0} usuários.
+changerequest.savemodal.error.missingChangerequest=Insira um novo título de solicitação de mudança ou selecione uma solicitação de mudança existente.
+changerequest.savemodal.error.minimumApprovers=Você deve selecionar no mínimo {0} aprovadores.
+changerequest.savemodal.error.approversLackRight=Alguns ou todos os aprovadores selecionados não têm direitos de visualização neste documento.
+changerequest.savemodal.error.otherError=Esta solicitação de mudança não pode ser salva. Tente criar uma nova solicitação de mudança ou adicione suas alterações a outra solicitação de mudança. Os seguintes erros foram encontrados:
+changerequest.sheet.message.reply.header=Responder à mensagem de {0} enviada {1}.
+changerequest.sheet.message.reply.link.title=Clique para navegar para a mensagem anterior.
+changerequest.livetable.approvers.reviews.performed=revisão(ões) realizada(s)
+changerequest.livetable.approvers.reviews.alreadyReviewed=já revisado
+changerequest.review.modal.title=Revise esta solicitação de mudança
+changerequest.review.modal.selectApprover.title=Revendo em nome de:
+changerequest.review.modal.selectApprover.hint=Selecione o usuário em nome de quem você está realizando esta revisão.
+changerequest.review.modal.selectApprover.themselves=Revise em seu próprio nome
+changerequest.review.modal.choice.approve=Aprovar esta solicitação de mudança
+changerequest.review.modal.choice.requestChanges=Solicitar alterações
+changerequest.review.modal.comment.label=Forneça um comentário
+changerequest.review.modal.warningConflict=Pelo menos um dos documentos que você está prestes a revisar está em conflito com a versão publicada do documento. Sua revisão será invalidada se o documento for atualizado ou modificado no processo de gerenciamento de conflitos.
+changerequest.review.modal.warningReview=Você já revisou esta solicitação de mudança. Esta revisão invalidará sua resposta existente.
+changerequest.review.modal.warningReview.onBehalf=Já existe uma revisão válida para esta solicitação de mudança. Foi realizado por ou em nome de {0}. Esta revisão invalidará a resposta existente.
+</content>
+  </xwikidoc>
